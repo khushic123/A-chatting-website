@@ -1,0 +1,132 @@
+body{
+    background-color: #212121;
+}
+.chat_logo{
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    width: 130px;
+    height: 100px;
+}
+.chat{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+}
+
+.container{
+    background-color: #39A6A3;
+    max-width: 955px;
+    margin: auto;
+    height: 60vh;
+    border: 2px solid black;
+    overflow-x:hidden;
+    overflow-y:visible;
+    margin-bottom: 5px;
+    position: relative;
+    top:30px;
+}
+.message{
+    background-color:#DEEEEA;
+    width: 25%;
+    overflow-wrap: break-word;
+    padding: 1%;
+    margin: 20px 10px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.right{
+    float: right;
+    clear: both;
+}
+.left{
+    float: left;
+    clear: both;
+
+}
+
+#sendContainer{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width:100%;
+    position: relative;
+    top:30px;}
+
+#msgINP{
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+ #sendName{
+    display: block;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+    max-width: 985px;
+    width:100%;
+    position: relative;
+    top: 40px;
+}  
+
+ #msgINP1{
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    margin-bottom: 50px;
+}
+
+p{
+    margin-top: 20px;
+    text-align: center;
+    font-size:x-large;
+    color: #CDF0EA;
+    position: relative;
+    top: 35px;
+}
+
+#btn1{
+    margin-top: 10px;
+} 
+ .wall{
+    display: block;
+    margin: auto;
+    position: relative;
+    top:70px;
+}
+
+.pic{
+    position: relative;
+    bottom: 650px;
+    left: 50px;
+}
+.pic2{
+   width: 300px;
+   height: 250px;
+    position: relative;
+    bottom: 680px;
+    left:800px;
+}
+.pic3{
+    position: relative;
+    bottom: 200px;
+    right:600px;
+}
+.pic4{
+    position: relative;
+    bottom: 600px;
+    left:1100px;
+    width: 400px;
+}
+
+
+#heading{
+   text-align: center;
+   font-family: 'Acme', sans-serif;
+   color: #FDFAF6;
+}
